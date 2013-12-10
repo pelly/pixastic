@@ -39,7 +39,7 @@ Pixastic.Effects = (function() {
             pyn = pyc + width * 4;
 
             if (y < 1) pyp = pyc;
-            if (y >= width-1) pyn = pyc;
+            if (y >= height-1) pyn = pyc;
             
             for (x=0;x<width;++x) {
                 idx = (y * width + x) * 4;
